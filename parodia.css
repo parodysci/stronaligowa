@@ -1,0 +1,131 @@
+body {
+    background-image: url("logoLiga.png");
+    background-repeat: no-repeat;
+    background-color: coral;
+}
+
+/* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+
+/* wygląd głównego elementu - ol */
+
+
+a {
+    color: none;
+    text-decoration: none;
+}
+
+.iframe {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    left: 1390px;
+    top: 315px;
+}
+
+p {
+    text-indent: 5%;
+    background-color: darkseagreen;
+    font-size: 32px;
+    margin-left: 220px;
+    margin-top: -38px;
+    width: 1150px;
+
+}
+
+.calendarol {
+    text-indent: 5%;
+    text-align: left;
+    list-style-type: decimal;
+    background-color: darkseagreen;
+    margin-left: 240px;
+    margin-top: -38px;
+    width: 1150px;
+}
+
+.calendarli {
+    background-color: darkseagreen;
+}
+
+ol {
+    color: #f12012;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 300px;
+    background-color: #FFF;
+    font-size: 18px;
+    height: 2em;
+    width: 10%;
+    line-height: 2em;
+    text-align: center;
+}
+
+/* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
+ol a {
+    display: block;
+    text-decoration: none;
+    color: #F12012;
+    padding: 0 5px;
+}
+
+/* wygląd elementów - li - wszystkich dzieci elementu - ol */
+ol > li {
+    float: left;
+    width: 200px;
+    margin-left: 1px;
+    background-color: #FDD700;
+    height: 2em;
+}
+
+/* wygląd elementu - li - pierwszego dziecka elementu - ol */
+ol > li:first-child {
+    margin-left: 0;
+}
+
+/* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+ol > li:hover {
+    background-color: #EEE;
+}
+
+/* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+ol > li:hover > a {
+    color: #09C;
+}
+
+/* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+ol > li:hover > ul {
+    display: block;
+}
+
+/* ------------------------CZĘŚĆ-ROZWIJANA-MENU------------------------ */
+
+/* wygląd głównych rozwijanych elementów - ul */
+
+ol > li > ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* wygląd elementu - li - w części rozwijanej */
+ol > li > ul > li {
+    position: relative;
+    background-color: #EEE;
+}
+
+/* wygląd elementu - a - w części rozwijanej */
+ol > li > ul > li > a {
+    border-top: 1px solid #FFF;
+}
+
+/* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+ol > li > ul > li:hover {
+    background-color: #DDD;
+}
+
+/* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
+ol > li > ul > li:hover > a {
+    color: #09C;
+}
