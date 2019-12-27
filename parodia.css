@@ -28,7 +28,7 @@ p {
     font-size: 32px;
     margin-left: 220px;
     margin-top: -38px;
-    width: 1650px;
+    width: auto;
 
 }
 
@@ -39,7 +39,7 @@ p {
     background-color: darkseagreen;
     margin-left: 240px;
     margin-top: -38px;
-    width: 1150px;
+    width: auto;
 }
 
 .calendarli {
