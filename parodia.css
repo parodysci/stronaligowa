@@ -1,6 +1,7 @@
 body {
     background-image: url("logoLiga.png");
     background-repeat: no-repeat;
+    background-size: 100% 7,5%;
     background-color: coral;
 }
 
